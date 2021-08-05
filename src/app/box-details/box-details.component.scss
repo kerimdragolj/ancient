@@ -1,0 +1,23 @@
+.box-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 20rem;
+    }
+
+    .slots {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 2rem 0;
+        overflow: hidden;
+
+        .slot {
+            width: 20%;
+        }
+    }
+
+}

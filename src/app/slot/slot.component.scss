@@ -1,0 +1,13 @@
+.slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    padding: 0.5rem;
+    border: 1px dotted gray;
+
+    
+    img {
+        width: 100%;
+    }
+}

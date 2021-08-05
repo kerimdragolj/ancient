@@ -1,0 +1,10 @@
+<div class="box-details" *ngIf="box">
+    <img [src]="box.iconUrl" onerror="this.onerror = null; this.src='assets/u2.png'">
+    <h2> {{box.name}} </h2>
+
+    <div class="slots">
+        <app-slot *ngFor="let slot of box.slots" [slot]="slot" [item]="slot.item" class="slot"></app-slot>
+    </div>
+
+    <button class="btn btn-primary" (click)="openBox(box.id)"> Open box </button>
+</div>
